@@ -1,28 +1,11 @@
 import "./ChooseTour.css";
+import TourTypes from "../TourTypes/TourTypes";
 
 function ChooseTour() {
   return (
     <section id="choose-tour" className="choose-tour">
       <h2 className="choose-tour__title text-section-title">Выбери свой тур</h2>
-      <ul className="tours-types">
-        <li>
-          <button className="tours-types__type text-bold tours-types__type_active">
-            Популярные
-          </button>
-        </li>
-        <li>
-          <button className="tours-types__type text-bold">Авторские</button>
-        </li>
-        <li>
-          <button className="tours-types__type text-bold">Походы</button>
-        </li>
-        <li>
-          <button className="tours-types__type text-bold">Сплавы</button>
-        </li>
-        <li>
-          <button className="tours-types__type text-bold">Велопрогулки</button>
-        </li>
-      </ul>
+      <TourTypes />
       <ul className="choose-tour__cards">
         <li className="tours-card">
           <img
