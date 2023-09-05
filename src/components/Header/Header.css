@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-bottom: 119px;
   display: flex;
   flex-direction: column;
@@ -18,10 +18,10 @@
   min-width: 118px;
   min-height: 34px;
   padding: 5px 20px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 10px;
   border: 0;
-  color: #1B1F2B;
+  color: #1b1f2b;
   font-size: 17px;
   font-weight: 400;
   line-height: 24px;
@@ -30,13 +30,13 @@
 }
 
 .header__find-button:hover {
-  color:#FFFFFF;
-  background-color: #EFA501;
+  color: #ffffff;
+  background-color: #efa501;
 }
 
 .header__find-button:active {
-  color: #1B1F2B;
-  background-color: #F8E6BE;
+  color: #1b1f2b;
+  background-color: #f8e6be;
 }
 
 .header__logo {
@@ -58,11 +58,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;  
+  align-items: center;
 }
 
 .header__navbar {
-  width: 100%;  
+  width: 100%;
   padding: 29px 57px;
   box-sizing: border-box;
 }
@@ -78,7 +78,7 @@
 }
 
 .header__phone-number {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -90,7 +90,7 @@
 }
 
 .header__phone-number_scrolled {
-  color: #1B1F2B;
+  color: #1b1f2b;
 }
 
 .header__subtitle {
@@ -109,6 +109,18 @@
   text-align: center;
 }
 
+@media screen and (max-width: 1280px) {
+  .header__subtitle {
+    max-width: 442px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .header {
+    background-image: url(../../images/header-02-img.png);
+  }
+}
+
 @media screen and (max-width: 760px) {
   .header__title {
     max-width: 360px;
@@ -117,24 +129,18 @@
   }
 }
 
+@media screen and (max-width: 760px) {
+  .header__subtitle {
+    max-width: 310px;
+    margin: 40px 0;
+  }
+}
+
 @media screen and (max-width: 520px) {
   .header__title {
     margin-top: 51px;
     font-size: 34px;
     line-height: 38px;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .header__subtitle {
-    max-width: 442px;
-  }
-}
-
-@media screen and (max-width: 760px) {
-  .header__subtitle {
-    max-width: 310px;    
-    margin: 40px 0;
   }
 }
 
@@ -170,12 +176,6 @@
 @media screen and (max-width: 520px) {
   .header_scrolled {
     padding-top: 89px;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .header {
-    background-image: url(../../images/header-02-img.png);
   }
 }
 
