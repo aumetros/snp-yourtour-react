@@ -7,9 +7,9 @@
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 50px 50px 43px;
-  box-sizing: border-box;  
+  box-sizing: border-box;
   cursor: pointer;
 }
 
@@ -34,7 +34,7 @@
   flex-direction: row;
   align-items: center;
   gap: 17px;
-  color: #FFFFFF;
+  color: #ffffff;
   transform: translateX(-20px);
   cursor: pointer;
 }
@@ -46,7 +46,7 @@
   display: block;
   position: absolute;
   top: 0;
-  left: 0;  
+  left: 0;
   transition: all 300ms ease;
 }
 
@@ -56,7 +56,12 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
+  background: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.06) 48.44%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
   z-index: 1;
 }
 
@@ -83,43 +88,7 @@
   .tours-card__title {
     max-width: 350px;
   }
-}
 
-@media screen and (max-width: 1023px) {
-  .tours-card__title {    
-    margin-bottom: 13px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .tours-card__subtitle {
-    letter-spacing: -0.04em;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .tours-card__forward-button {
-    width: 123px;
-    min-height: 26px;
-    padding-bottom: 1px;
-  }
-}
-
-@media screen and (min-width: 1024px) {  
-.tours-card:hover .tours-card__foto {
-  transform: scale(1.2);
-}
-
-.tours-card:hover .tours-card__forward-button {
-  background-color: #286562;
-}
-
-.tours-card:active .tours-card__forward-button {
-  background-color: #EFA501;
-}
-}
-
-@media screen and (max-width: 1280px) {
   .tours-card {
     width: 450px;
     min-height: 531px;
@@ -127,10 +96,38 @@
 }
 
 @media screen and (max-width: 1023px) {
+  .tours-card__title {
+    margin-bottom: 13px;
+  }
+
+  .tours-card__subtitle {
+    letter-spacing: -0.04em;
+  }
+
+  .tours-card__forward-button {
+    width: 123px;
+    min-height: 26px;
+    padding-bottom: 1px;
+  }
+
   .tours-card {
     width: 318px;
     min-height: 318px;
     border-radius: 20px;
     padding: 25px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .tours-card:hover .tours-card__foto {
+    transform: scale(1.2);
+  }
+
+  .tours-card:hover .tours-card__forward-button {
+    background-color: #286562;
+  }
+
+  .tours-card:active .tours-card__forward-button {
+    background-color: #efa501;
   }
 }
