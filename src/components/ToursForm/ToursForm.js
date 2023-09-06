@@ -5,7 +5,7 @@ function ToursForm() {
     <form className="tours-form">
       <fieldset className="tours-form__fieldset tours-form__fieldset_type_inputs">
         <div className="tours-form__container">
-          <label className="tours-form__label text" for="name">
+          <label className="tours-form__label text" htmlFor="name">
             Имя
           </label>
           <input
@@ -18,7 +18,7 @@ function ToursForm() {
           />
         </div>
         <div className="tours-form__container">
-          <label className="tours-form__label text" for="direction">
+          <label className="tours-form__label text" htmlFor="direction">
             Направление
           </label>
           <div className="tours-form__select-container">
@@ -26,9 +26,10 @@ function ToursForm() {
               className="tours-form__select text"
               id="direction"
               name="direction"
+              defaultValue={""}
               required
             >
-              <option value="" disabled selected hidden>
+              <option value="" disabled hidden>
                 Куда хотите ехать
               </option>
               <option value="Санкт-Петербург">Санкт-Петербург</option>
@@ -38,7 +39,7 @@ function ToursForm() {
           </div>
         </div>
         <div className="tours-form__container">
-          <label className="tours-form__label text" for="email">
+          <label className="tours-form__label text" htmlFor="email">
             Email
           </label>
           <input
@@ -51,7 +52,7 @@ function ToursForm() {
           />
         </div>
         <div className="tours-form__container">
-          <label className="tours-form__label text" for="phone">
+          <label className="tours-form__label text" htmlFor="phone">
             Телефон
           </label>
           <input
@@ -64,7 +65,7 @@ function ToursForm() {
           />
         </div>
         <div className="tours-form__container">
-          <label className="tours-form__label text" for="date-from">
+          <label className="tours-form__label text" htmlFor="date-from">
             Дата от
           </label>
           <input
@@ -76,7 +77,7 @@ function ToursForm() {
           />
         </div>
         <div className="tours-form__container">
-          <label className="tours-form__label text" for="date-to">
+          <label className="tours-form__label text" htmlFor="date-to">
             Дата до
           </label>
           <input
@@ -88,7 +89,7 @@ function ToursForm() {
           />
         </div>
         <div className="tours-form__container tours-form__container_size_wide">
-          <label className="tours-form__label text" for="comment">
+          <label className="tours-form__label text" htmlFor="comment">
             Комментарий
           </label>
           <textarea
@@ -103,7 +104,7 @@ function ToursForm() {
         <div className="tours-form__radios">
           <label
             className="tours-form__label text tours-form__label_el_radio"
-            for="adult-user"
+            htmlFor="adult-user"
           >
             <input
               className="tours-form__radio"
@@ -117,7 +118,7 @@ function ToursForm() {
           </label>
           <label
             className="tours-form__label text tours-form__label_el_radio"
-            for="underage-user"
+            htmlFor="underage-user"
           >
             <input
               className="tours-form__radio"
@@ -132,12 +133,13 @@ function ToursForm() {
         </div>
       </fieldset>
       <fieldset className="tours-form__fieldset tours-form__fieldset_type_agree">
-        <label className="tours-form__label">
+        <label className="tours-form__label" htmlFor="agree">
           <input
             className="tours-form__checkbox"
             type="checkbox"
             name="agree"
             value="agree"
+            id="agree"
             required
           />
           <span className="tours-form__pseudo tours-form__pseudo_type_checkbox"></span>

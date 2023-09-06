@@ -4,8 +4,8 @@ function ReviewCard({ review }) {
   return (
     <div className="review-card">
       <div className="review-card__text-container">
-        {review.text.map((p) => {
-          return <p className="review-card__text text-bold">{p}</p>;
+        {review.text.map((p, i) => {
+          return <p key={i} className="review-card__text text-bold">{p}</p>;
         })}
       </div>
       <div className="review-card__profile">
