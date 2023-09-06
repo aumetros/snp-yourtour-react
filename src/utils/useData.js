@@ -25,6 +25,11 @@ import foto11 from "../images/gallery-11-img.png";
 import foto12 from "../images/gallery-12-img.png";
 import foto13 from "../images/gallery-13-img.png";
 
+/**Данные для Stories */
+import story1 from "../images/stories-card-01-img.png";
+import story2 from "../images/stories-card-02-img.png";
+import story3 from "../images/stories-card-03-img.png";
+
 export const arrCards = Array.of(card1, card2, card3, card4, card5, card6);
 
 export const reviews = [
@@ -51,6 +56,21 @@ export const reviews = [
     ],
     tour: "Тур: Путешествие в горы",
     foto: reviewFoto2,
+  },
+];
+
+export const stories = [
+  {
+    title: `Автостопом в Стамбул`,
+    text: `Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу
+    (специалистов) участие в формировании новых предложений:`,
+    points: ["вкусная еда", "дешевый транспорт", "красивый город."],
+    links: [
+      ["instagram", "https://www.youtube.com/"],
+      ["facebook", "https://www.youtube.com/"],
+      ["YouTube", "https://www.youtube.com/"],
+    ],
+    foto: story1,
   },
 ];
 
