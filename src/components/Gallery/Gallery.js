@@ -16,7 +16,7 @@ function Gallery() {
           {arrGallery.slice(0, 4).map((img, i) => {
             return (
               <img
-              key={i}
+                key={i}
                 src={img}
                 alt="gallery foto"
                 className="tours-gallery__item tours-gallery__item_row_first"
@@ -28,7 +28,7 @@ function Gallery() {
           {arrGallery.slice(4, 9).map((img, i) => {
             return (
               <img
-              key={i}
+                key={i}
                 src={img}
                 alt="gallery foto"
                 className="tours-gallery__item tours-gallery__item_row_second"
@@ -40,7 +40,7 @@ function Gallery() {
           {arrGallery.slice(9).map((img, i) => {
             return (
               <img
-              key={i}
+                key={i}
                 src={img}
                 alt="gallery foto"
                 className="tours-gallery__item tours-gallery__item_row_third"
