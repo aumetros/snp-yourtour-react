@@ -3,6 +3,7 @@ import CollectTour from "../CollectTour/CollectTour";
 import Review from "../Review/Review";
 import Gallery from "../Gallery/Gallery";
 import Stories from "../Stories/Stories";
+import Mail from "../Mail/Mail";
 
 function Main() {
   return (
@@ -12,7 +13,7 @@ function Main() {
       <Review />
       <Gallery />
       <Stories />
-
+      <Mail />
     </main>
   )
 }
