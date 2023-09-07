@@ -66,8 +66,8 @@ export const stories = [
     (специалистов) участие в формировании новых предложений:`,
     points: ["вкусная еда", "дешевый транспорт", "красивый город."],
     links: [
-      ["instagram", "https://www.youtube.com/"],
-      ["facebook", "https://www.youtube.com/"],
+      ["instagram", "https://instagram.com/"],
+      ["facebook", "https://facebook.com/"],
       ["YouTube", "https://www.youtube.com/"],
     ],
     foto: story1,
@@ -78,7 +78,7 @@ export const stories = [
     (специалистов) участие в формировании новых предложений:`,
     points: [],
     links: [
-      ["instagram", "https://www.youtube.com/"],
+      ["instagram", "https://instagram.com/"],
       ["ВКонтакте", "https://www.vk.ru/"],
     ],
     foto: story2,
@@ -89,8 +89,8 @@ export const stories = [
     (специалистов) участие в формировании новых предложений:`,
     points: [],
     links: [
-      ["instagram", "https://www.youtube.com/"],
-      ["facebook", "https://www.youtube.com/"],
+      ["instagram", "https://instagram.com/"],
+      ["facebook", "https://facebook.com/"],
       ["ВКонтакте", "https://www.vk.ru/"],
     ],
     foto: story3,
