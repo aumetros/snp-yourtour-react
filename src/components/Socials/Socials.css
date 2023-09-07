@@ -1,6 +1,6 @@
 .socials {
   display: flex;
-  gap: 24px;
+  gap: 25px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -37,12 +37,13 @@
   background-image: url(../../images/vk-icon-img.svg);
   background-size: 20px 12px;
   margin: 2px 8px 0 0;
-  margin-right: 8px;
+  margin-right: 11px;
 }
 
 .socials__icon_el_inst {
   background-image: url(../../images/ins-icon-img.svg);
   background-size: 14px 14px;
+  background-position: 8px 8px;
   margin-right: 8px;
 }
 
@@ -50,12 +51,12 @@
   background-image: url(../../images/fb-icon-img.svg);
   background-size: 8px 17px;
   background-position-x: 15px;
-  margin-right: 8px;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 520px) {
   .socials {
-    gap: 16px;
+    gap: 17px;
   }
 
   .socials__icon {
@@ -66,21 +67,21 @@
 
   .socials__icon_el_inst {
     background-size: 10.77px 10.77px;
-    background-position: center center;
+    background-position: 0 5px;
     background-position-x: 7px;
-    margin-right: 0px;
+    margin-right: 4px;
   }
 
   .socials__icon_el_fb {
     background-size: 6.15px 13.08px;
     background-position: center center;
     background-position-x: 9px;
-    margin-right: 0px;
+    margin-right: 4px;
   }
 
   .socials__icon_el_vk {
     background-size: 15.38px 9.23px;
     background-position: center center;
-    margin-right: 0px;
+    margin-right: 4px;
   }
 }
