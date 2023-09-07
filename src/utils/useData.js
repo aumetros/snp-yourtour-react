@@ -72,6 +72,29 @@ export const stories = [
     ],
     foto: story1,
   },
+  {
+    title: `Автостопом в Стамбул`,
+    text: `Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу
+    (специалистов) участие в формировании новых предложений:`,
+    points: [],
+    links: [
+      ["instagram", "https://www.youtube.com/"],
+      ["ВКонтакте", "https://www.vk.ru/"],
+    ],
+    foto: story2,
+  },
+  {
+    title: `Автостопом в Стамбул`,
+    text: `Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу
+    (специалистов) участие в формировании новых предложений:`,
+    points: [],
+    links: [
+      ["instagram", "https://www.youtube.com/"],
+      ["facebook", "https://www.youtube.com/"],
+      ["ВКонтакте", "https://www.vk.ru/"],
+    ],
+    foto: story3,
+  },
 ];
 
 export const arrGallery = Array.of(
